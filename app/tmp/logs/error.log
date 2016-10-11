@@ -1,0 +1,20 @@
+2016-10-11 12:45:12 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/html/app/Controller/SeccionesController.php, line 58]
+2016-10-11 12:45:12 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /secciones/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 58, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 58, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-11 13:02:36 Error: Fatal Error (1): Call to a member function find() on null in [/var/www/html/app/Controller/SeccionesController.php, line 58]
+2016-10-11 13:02:36 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /secciones/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 58, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 58, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
